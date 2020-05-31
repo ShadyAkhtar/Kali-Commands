@@ -1,0 +1,16 @@
+
+
+
+//super user
+
+sudo -i
+
+//Black Display correction
+
+//on first start add 2 more user if root user gets blank try commanding other users with given following commands.
+
+xfconf-query -c xfwm4 -p /general/vblank_mode -t string -s "xpresent" --create
+
+xfwm4 --vblank=xpresent --replace
+
+

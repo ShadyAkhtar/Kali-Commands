@@ -1,0 +1,44 @@
+    1  history
+    2  apt-get update && apt-get upgrade
+    3  apt-get install gnome-core kali-defaults kali-root-login desktop-base
+    4  apt-get install gnome
+    5  sudo apt-get install bluetooth bluez bluez-tools rfkil
+    6  sudo apt-get install chrome
+    7  leafpad /etc/apt/sources.list
+    8  echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" > /etc/apt/sources.list
+    9  echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" > /etc/apt/sources.list
+   10  apt-get update && apt-get upgrade
+   11  service network-manager retstart
+   12  service network-manager restart
+   13  nmcli networking on
+   14  service network-manager restart
+   15  service network-manager start
+   16  ifconfig
+   17  cd \
+   18  ls
+   19  ls
+   20  cd /
+   21  ls
+   22  cd etc
+   23  ls
+   24  cd network-manager
+   25  cd network manager
+   26  cd networkmanager
+   27  cd NetworkManager
+   28  ls
+   29  nano NetworkManager.conf
+   30  nano NetworkManager.conf
+   31  nano NetworkManager.conf
+   32  sudo apt-get install bluetooth
+   33  sudo apt-get install bluetooth bluez bluez-tools rfkill
+   34  sudo rfkill list
+   35  sudo rfkill unblock bluetooth
+   36  sudo service bluetooth start
+   37  sudo apt-get install blueman
+   38  sudo apt-get install blueman
+   39  sudo apt-get install gnome
+   40  history
+   41  history
+   42  ifconfig
+   43  history
+

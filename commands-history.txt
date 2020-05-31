@@ -1,0 +1,55 @@
+    1  sudo add user
+    2  sudo add user shoaib
+    3  sudo adduser shoaib
+    4  sudo adduser dilshad
+    5  sudo adduser saima
+    6  gnome
+    7  apt-get install gnome-core kali-defaults kali-root-login desktop-base
+    8  sudo apt-get install gnome-core kali-defaults kali-root-login desktop-base
+    9  sudo apt-get update && apt-get upgrade
+   10  sudo apt-get install gnome
+   11  sudo apt-get update && apt-get upgrade
+   12  sudo apt-get install gnome
+   13  xfconf-query -c xfwm4 -p /general/vblank_mode -t string -s "xpresent" --create
+   14  xfwm4 --vbank=xpresent --replace
+   15  xfwm4 --vblank=xpresent --replace
+   16  sudo apt-get update && apt-get upgrade
+   17  sudo apt-get install gnome
+   18  su -
+   19  sudo -i
+   20  history
+   21  leafpad /etc/apt/sources.list
+   22  cd leafpad /etc/apt/sources.list
+   23  leafpad
+   24  cp /etc/apt/sources.list /etc/apt/sources.list.backup
+   25  sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+   26  echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" > /etc/apt/sources.list
+   27  sudo echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" > /etc/apt/sources.list
+   28  sudo apt-get install gnome
+   29  sudo -i
+   30  nano NetworkManager.conf
+   31  sudo nano NetworkManager.conf
+   32  nano NetworkManager.conf
+   33  bluetooth
+   34  sudi -i
+   35  sudo -i
+   36  git remote add origin https://github.com/ShadyAkhtar/Kali-Commands.git
+   37  git push -u origin master
+   38  git config --global user.name "Shadab"
+   39  git config --global user.email "akhtarshadab415@gmai.com"
+   40  ssh-keygen -t rsa -b 4096 -C "akhtarshadab415@gmail.com"
+   41  eval $(ssh-agent -s)
+   42  ssh-add ~/.ssh/id_rsa
+   43  tail ~/.ssh/id_rsa.pub
+   44  git push -u origin master
+   45  git remote add origin https://github.com/ShadyAkhtar/Kali-Commands.git
+   46  git status
+   47  git add .
+   48  git commit -m "Some Commands Added for resolution"
+   49  git status
+   50  git push -u origin master
+   51  ifconfig
+   52  history
+   53  sudo -i
+   54  history
+
